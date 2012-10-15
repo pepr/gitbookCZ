@@ -60,3 +60,8 @@ The goals/Cíle:
    do dalších jazyků. Patří k nim i OmegaT, což je nástroj z kategorie CAT
    (počítačem podporovaný překlad). Plánované použití nástroje OmegaT by
    v budoucnu mělo pomoci zlepšit kvalitu usnadnit údržbu českého překladu.
+
+------
+Note: Many of texts and comments are to be writen in Czech. If a script or
+whatever is expected to be usefull for the non-Czech translations, the English
+comments will be used.
