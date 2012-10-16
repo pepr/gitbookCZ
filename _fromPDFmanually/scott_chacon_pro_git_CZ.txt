@@ -9,7 +9,7 @@ Git a ostatní systémy / Elementární principy systému Git
 Edice CZ.NIC
 
 
-1
+
 
 Scott Chacon
 
@@ -28,7 +28,7 @@ knihy.nic.cz
 
 
 
-— Předmluva
+— Předmluva 3
 Předmluva
 
 
@@ -70,10 +70,7 @@ Ondřej Filip
 V Praze 17. listopadu 2009
 
 
-Obsah
-
-
-Obsah 9
+— Obsah 9
 
 1. Úvod — 15
 1.1 Správa verzí — 17
@@ -317,7 +314,7 @@ ve větvi „rebel“ — 109
 9.8 Shrnutí — 263
 
 
-1. Kapitola
+1. Kapitola 15
 Úvod
 
 
@@ -325,51 +322,28 @@ ve větvi „rebel“ — 109
 — Obsah kapitoly 16
 
 1. Úvod — 15
-
 1.1 Správa verzí — 17
-
 1.1.1 Lokální systémy správy verzí — 17
-
 1.1.2 Centralizované systémy správy verzí — 17
-
 1.1.3 Distribuované systémy správy verzí — 18
-
 1.2 Stručná historie systému Git — 19
-
 1.3 Základy systému Git — 20
-
 1.3.1 Snímky, nikoli rozdíly — 20
-
 1.3.2 Téměř každá operace je lokální — 20
-
 1.3.3 Git pracuje důsledně — 21
-
 1.3.4 Git většinou jen přidává data — 22
-
 1.3.5 Tři stavy — 22
-
 1.4 Instalace systému Git — 23
-
 1.4.1 Instalace ze zdrojových souborů — 23
-
 1.4.2 Instalace v Linuxu — 24
-
 1.4.3 Instalace v systému Mac — 24
-
 1.4.4 Instalace v systému Windows — 24
-
 1.5 První nastavení systému Git — 25
-
 1.5.1 Totožnost uživatele — 25
-
 1.5.2 Nastavení editoru — 25
-
 1.5.3 Nastavení nástroje diff — 25
-
 1.5.4 Kontrola provedeného nastavení — 26
-
 1.6 Kde hledat pomoc — 26
-
 1.7 Shrnutí — 26
 
 
@@ -531,6 +505,7 @@ uchovává své prvotní kvality. Je extrémně rychlý, velmi efektivně pracuj
 skvělý systém větvení pro nelineární způsob vývoje (viz kapitola 3).
 
 
+1.3 Základy systému Git 20
 Verze 1
 
 Verze 2
@@ -541,7 +516,6 @@ Verze 4
 
 Verze 5
 
-1.3 Základy systému Git 20
 1.3 Základy systému Git
 Jak bychom tedy mohli Git charakterizovat? Odpověď na tuto otázku je velmi důležitá, protože pokud
 pochopíte, co je Git a na jakém principu pracuje, budete ho bezpochyby moci používat mnohem
@@ -706,8 +680,7 @@ zmen
 Adresár (rezporitár)
 
 
-1.4
-Instalace systému Git 23
+1.4 Instalace systému Git 23
 Standardní pracovní postup vypadá v systému Git následovně:
 
 1.
@@ -926,119 +899,53 @@ Základy práce
 se systémem Git
 
 
-—
-Obsah kapitoly 28
+— Obsah kapitoly 28
 
-2.
-Základy práce se systémem Git — 27
-
-2.1
-Získání repozitáře Git — 29
-
-2.1.1
-Inicializace repozitáře v existujícím
-adresáři — 29
-
-2.1.2
-Klonování existujícího repozitáře — 29
-
-2.2
-Nahrávání změn do repozitáře — 30
-
+2. Základy práce se systémem Git — 27
+2.1 Získání repozitáře Git — 29
+2.1.1 Inicializace repozitáře v existujícím adresáři — 29
+2.1.2 Klonování existujícího repozitáře — 29
+2.2 Nahrávání změn do repozitáře — 30
 2.2.1 Kontrola stavu souborů — 30
-
 2.2.2 Sledování nových souborů — 31
-
 2.2.3 Připravení změněných souborů — 32
-
 2.2.4 Ignorované soubory — 33
-
-2.2.5
-Zobrazení připravených a nepřipravených
-změn — 34
-
+2.2.5 Zobrazení připravených a nepřipravených změn — 34
 2.2.6 Zapisování změn — 36
-
 2.2.7 Přeskočení oblasti připravených změn — 37
-
 2.2.8 Odstraňování souborů — 38
-
 2.2.9 Přesouvání souborů — 39
-
-2.3
-Zobrazení historie revizí — 39
-
+2.3 Zobrazení historie revizí — 39
 2.3.1 Omezení výstupu logu — 43
-
-2.3.2
-Grafické uživatelské rozhraní pro procházení
-historie — 44
-
-2.4
-Rušení změn — 45
-
+2.3.2 Grafické uživatelské rozhraní pro procházení historie — 44
+2.4 Rušení změn — 45
 2.4.1 Změna poslední revize — 45
-
-2.4.2
-Návrat souboru z oblasti připravených
-změn — 45
-
+2.4.2 Návrat souboru z oblasti připravených změn — 45
 2.4.3 Rušení změn ve změněných souborech — 46
-
-2.5
-Práce se vzdálenými repozitáři — 47
-
+2.5 Práce se vzdálenými repozitáři — 47
 2.5.1 Zobrazení vzdálených serverů — 47
-
 2.5.2 Přidávání vzdálených repozitářů — 48
-
-2.5.3
-Vyzvedávání a stahování ze vzdálených
-repozitářů — 48
-
+2.5.3 Vyzvedávání a stahování ze vzdálených repozitářů — 48
 2.5.4 Posílání do vzdálených repozitářů — 49
-
 2.5.5 Prohlížení vzdálených repozitářů — 49
-
-2.5.6
-Přesouvání a přejmenovávání vzdálených
-repozitářů — 50
-
-2.6
-Značky — 50
-
+2.5.6 Přesouvání a přejmenovávání vzdálených repozitářů — 50
+2.6 Značky — 50
 2.6.1 Výpis značek — 50
-
 2.6.2 Vytváření značek — 51
-
 2.6.3 Anotované značky — 51
-
 2.6.4 Podepsané značky — 51
-
 2.6.5 Prosté značky — 52
-
 2.6.6 Ověřování značek — 53
-
 2.6.7 Dodatečné označení — 53
-
 2.6.8 Sdílení značek — 54
-
-2.7
-Tipy a triky — 54
-
-2.7.1
-Automatické dokončování — 55
-
+2.7 Tipy a triky — 54
+2.7.1 Automatické dokončování — 55
 2.7.2 Aliasy Git — 55
-
-2.8
-Shrnutí — 56
+2.8 Shrnutí — 56
 
 
-2.1
-Získání repozitáře Git 29
-2.
-Základy práce se systémem Git
+2.1 Získání repozitáře Git 29
+2. Základy práce se systémem Git
 Pokud jste ochotni přečíst si o systému Git jen jednu kapitolu, měla
 by to být právě tahle. Tato kapitola popíše všechny základní příkazy,
 jejichž prováděním strávíte drtivou většinu času při práci se systémem
@@ -1689,8 +1596,7 @@ Date: Mon Mar 17 21:52:11 2008 -0700
  changed the version number
 
 
-2.3
-Zobrazení historie revizí 40
+2.3 Zobrazení historie revizí 40
 commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon <schacon@gee-mail.com>
 Date: Sat Mar 15 16:40:33 2008 -0700
@@ -1933,8 +1839,7 @@ souborech. Cesta je vždy posledním parametrem a většinou jí předcházejí 
 oddělena od ostatních parametrů.
 
 
-2.3
-Zobrazení historie revizí 44
+2.3 Zobrazení historie revizí 44
 Tab.
 Tabulka 2.3 uvádí pro přehlednost zmíněné parametry a několik málo dalších.
 Tabulka 2.2
@@ -2094,15 +1999,12 @@ potřebujete pouze odstranit soubor z cesty, podívejte se na odkládání a vě
 Tyto postupy většinou bývají vhodnější.
 
 
-2.5
-Práce se vzdálenými 47
-repozitáři
+2.5 Práce se vzdálenými repozitáři 47
 Vše, co je zapsáno v systému Git, lze téměř vždy obnovit. Obnovit lze dokonce i revize na odstraněKap.
 ných větvích nebo revize, které byly přepsány revizí --amend (o obnovování dat viz kapitola 9). Pokud
 však dojde ke ztrátě dat, která dosud nebyla součástí žádné revize, bude tato ztráta patrně nevratná.
 
-2.5
-Práce se vzdálenými repozitáři
+2.5 Práce se vzdálenými repozitáři
 Abyste mohli spolupracovat na projektech v systému Git, je třeba vědět, jak manipulovat se vzdálenými
 repozitáři (remote repositories). Vzdálené repozitáře jsou verze vašeho projektu umístěné na internetu
 nebo kdekoli v síti. Vzdálených repozitářů můžete mít hned několik, každý pro vás přitom bude
@@ -2156,11 +2058,9 @@ však, že pouze vzdálený server origin je SSH URL, a je tedy jediným repozit
 Kap. posílat soubory (důvod objasníme v kapitole 4).
 
 
-2.5
-Práce se vzdálenými 48
-repozitáři
-2.5.2
-Přidávání vzdálených repozitářů
+2.5 Práce se vzdálenými repozitáři 48
+
+2.5.2 Přidávání vzdálených repozitářů
 V předchozích částech už jsem se letmo dotkl přidávání vzdálených repozitářů. V této části se dostávám
 k tomu, jak přesně při přidávání postupovat. Chcete-li přidat nový vzdálený repozitář Git ve formě zkráceného
 názvu, na nějž lze snadno odkazovat, spusťte příkaz git remote add [zkrácený název] [url]:
@@ -2218,11 +2118,8 @@ většinou vyzvedne data ze serveru, z nějž jste původně klonovali, a automa
 do kódu, na němž právě pracujete.
 
 
-2.5
-Práce se vzdálenými 49
-repozitáři
-2.5.4
-Posílání do vzdálených repozitářů
+2.5 Práce se vzdálenými repozitáři 49
+2.5.4 Posílání do vzdálených repozitářů
 Pokud se váš projekt nachází ve fázi, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push)
 na vzdálený server. Příkaz pro tuto akci je jednoduchý: git push [název vzdáleného repozitáře]
 [název větve]. Pokud chcete poslat svou hlavní větev na server origin (i tady platí, že proces klonování
@@ -2689,41 +2586,23 @@ Větve v systému Git
 — Obsah kapitoly 58
 
 3. Větve v systému Git — 57
-
 3.1 Co je to větev — 59
-
 3.2 Základy větvení a slučování — 64
-
 3.2.1 Základní větvení — 65
-
 3.2.2 Základní slučování — 68
-
 3.2.3 Základní konflikty při slučování — 70
-
 3.3 Správa větví — 72
-
 3.4 Možnosti při práci s větvemi — 72
-
 3.4.1 Dlouhé větve — 73
-
 3.4.2 Tematické větve — 74
-
 3.5 Vzdálené větve — 75
-
 3.5.1 Odesílání — 79
-
 3.5.2 Sledující větve — 80
-
 3.5.3 Mazání vzdálených větví — 80
-
 3.6 Přeskládání — 80
-
 3.6.1 Základní přeskládání — 81
-
 3.6.2 Zajímavější možnosti přeskládání — 83
-
 3.6.3 Rizika spojená s přeskládáním — 85
-
 3.7 Shrnutí — 88
 
 
@@ -2864,8 +2743,7 @@ add feature #32 - ability to
 add new formats to the central
 Snímek A Snímek B Snímek C
 
-3.1 Co je to větev
-61
+3.1 Co je to větev 61
 Větev je v systému Git jen snadno přemístitelným ukazatelem na jednu z těchto revizí. Výchozím názvem
 větve v systému Git je master (hlavní větev). Při prvním zapisování revizí dostanete hlavní větev,
 jež bude ukazovat na poslední revizi, kterou jste zapsali. Pokaždé, když zapíšete novou revizi, větev se
@@ -2905,8 +2783,7 @@ Obr.
 řili novou větev, zatím jste na ni nepřepnuli (viz obrázek 3.5).
 
 
-3.1
-Co je to větev 62
+3.1 Co je to větev 62
 Chcete-li přepnout na existující větev, spusťte příkaz git checkout. My můžeme přepnout na novou
 větev testing:
 
@@ -2944,8 +2821,7 @@ vpřed, zatímco hlavní větev stále ukazuje na revizi, na níž jste se nach�
 příkaz git checkout a přepnuli tím větve.
 
 
-3.1
-Co je to větev 63
+3.1 Co je to větev 63
 Přepněme zpět na hlavní větev.
 
 $ git checkout master
@@ -3034,8 +2910,7 @@ Po úspěšném otestování začleníte větev s hotfixem a odešlete ji do pro
 4.
 Přepnete zpět na svou původní část a pokračujete v práci.
 
-3.2
-Základy větvení a slučování 65
+3.2 Základy větvení a slučování 65
 3.2.1
 Základní větvení
 Obr.
@@ -3211,8 +3086,7 @@ kroky. Git v tomto případě provádí jednoduché třícestné sloučení: vyc
 ukazují větve, a jejich společného předka.
 
 
-3.2
-Základy větvení a slučování 69
+3.2 Základy větvení a slučování 69
 Obrázek 3.16
 
 Git automaticky identifikuje nejvhodnějšího společného předka jako základnu pro sloučení větví.
@@ -3698,8 +3572,7 @@ master
 893cf
 190a3
 
-3.5
-Vzdálené větve 79
+3.5 Vzdálené větve 79
 3.5.1 Odesílání
 Chcete-li svou větev sdílet s okolním světem, musíte ji odeslat na vzdálený server, k němuž máte
 oprávnění pro zápis. Vaše lokální větve nejsou automaticky synchronizovány se vzdálenými servery,
@@ -3814,8 +3687,7 @@ přeskládání, jak ho provést, v čem spočívají výhody tohoto nástroje a
 nepoužívat.
 
 
-3.6 Přeskládání
-81
+3.6 Přeskládání 81
 3.6.1 Základní přeskládání
 Obr.
 Pokud se vrátíme k našemu dřívějšímu příkladu z části o slučování větví (viz obrázek 3.27), vidíme,
@@ -3879,8 +3751,7 @@ Tuto metodu budete často používat v situaci, kdy chcete mít jistotu, že byl
 na vzdálenou větev – např. v projektu, do nějž chcete přidat příspěvek, který ale nespravujete.
 
 
-3.6
-Přeskládání 83
+3.6 Přeskládání 83
 V takovém případě budete pracovat ve své větvi, a až budete mít připraveny záplaty k odeslání
 do hlavního projektu, přeskládáte svou práci na větev origin/master. Správce v tomto případě
 nemusí provádět žádnou integraci, provede pouze posun „rychle vpřed“ nebo čistou aplikaci.
@@ -4092,102 +3963,39 @@ Git na serveru
 
 
 
-—
-Obsah kapitoly 90
+— Obsah kapitoly 90
 
-4.
-Git na serveru — 89
-
-4.1
-Protokoly — 92
-
-4.1.1
-Protokol Local — 92
-
-4.1.2
-Protokol SSH — 93
-
-4.1.3
-Protokol Git — 94
-
-4.1.4
-Protokol HTTP/S — 94
-
-4.2
-Jak umístit Git na server — 95
-
-4.2.1
-Umístění holého repozitáře na server — 96
-
-4.2.2
-Nastavení pro malou skupinu — 96
-
-4.3
-Vygenerování veřejného SSH klíče — 97
-
-4.4
-Nastavení serveru — 98
-
-4.5
-Veřejný přístup — 99
-
-4.6
-GitWeb — 101
-
-4.7
-Gitosis — 102
-
-4.8
-Gitolite — 106
-
-4.8.1
-Instalace — 106
-
-4.8.2
-Přizpůsobení instalace — 107
-
-4.8.3
-Konfigurační soubor a pravidla přístupu — 107
-
-4.8.4
-Rozšířená kontrola přístupu
-ve větvi „rebel“ — 109
-
-4.8.5
-Další vlastnosti — 109
-
-4.9
-Démon Git — 110
-
-4.10
-Hostování projektů Git — 112
-
-4.10.1
-GitHub — 112
-
-4.10.2
-Založení uživatelského účtu — 112
-
-4.10.3
-Vytvoření nového repozitáře — 114
-
-4.10.4
-Import ze systému Subversion — 115
-
-4.10.5
-Přidávání spolupracovníků — 116
-
-4.10.6
-Váš projekt — 117
-
-4.10.7
-Štěpení projektů — 118
-
-4.10.8
-Shrnutí k serveru GitHub — 119
-
-4.11
-Shrnutí — 119
+4. Git na serveru — 89
+4.1 Protokoly — 92
+4.1.1 Protokol Local — 92
+4.1.2 Protokol SSH — 93
+4.1.3 Protokol Git — 94
+4.1.4 Protokol HTTP/S — 94
+4.2 Jak umístit Git na server — 95
+4.2.1 Umístění holého repozitáře na server — 96
+4.2.2 Nastavení pro malou skupinu — 96
+4.3 Vygenerování veřejného SSH klíče — 97
+4.4 Nastavení serveru — 98
+4.5 Veřejný přístup — 99
+4.6 GitWeb — 101
+4.7 Gitosis — 102
+4.8 Gitolite — 106
+4.8.1 Instalace — 106
+4.8.2 Přizpůsobení instalace — 107
+4.8.3 Konfigurační soubor a pravidla přístupu — 107
+4.8.4 Rozšířená kontrola přístupu ve větvi „rebel“ — 109
+4.8.5 Další vlastnosti — 109
+4.9 Démon Git — 110
+4.10 Hostování projektů Git — 112
+4.10.1 GitHub — 112
+4.10.2 Založení uživatelského účtu — 112
+4.10.3 Vytvoření nového repozitáře — 114
+4.10.4 Import ze systému Subversion — 115
+4.10.5 Přidávání spolupracovníků — 116
+4.10.6 Váš projekt — 117
+4.10.7 Štěpení projektů — 118
+4.10.8 Shrnutí k serveru GitHub — 119
+4.11 Shrnutí — 119
 
 
 4. Git na serveru 91
@@ -4229,8 +4037,7 @@ tu pouze uložena data systému Git. Jednoduše bychom mohli také říct, že
 holý repozitář je obsah adresáře .git vašeho projektu a nic víc.
 
 
-4.1
-Protokoly 92
+4.1 Protokoly 92
 4.1 Protokoly
 Git může k přenosu dat používat jeden ze čtyř hlavních síťových protokolů: Local, Secure Shell (SSH),
 Git nebo HTTP. V této části se podíváme na to, co jsou jednotlivé protokoly zač a za jakých okolností je
@@ -4346,8 +4153,7 @@ anonymní přístup pro čtení k vašim projektům, budete muset nastavit proto
 dat, ale přidat jiný protokol, pomocí nějž budou ostatní tato data stahovat.
 
 
-4.1
-Protokoly 94
+4.1 Protokoly 94
 4.1.3 Protokol Git
 Dalším protokolem v pořadí je protokol Git. Je to speciální démon, který je distribuován spolu se
 systémem Git. Naslouchá na vyhrazeném portu (9418) a poskytuje podobnou službu jako protokol
@@ -5444,8 +5250,7 @@ Výběr typu účtu na serveru GitHub
 
 
 
-4.10
-Hostování projektů Git 113
+4.10 Hostování projektů Git 113
 Tady si budete muset zvolit uživatelské jméno, které zatím není v systému obsazeno, a zadat e-mailo-
 Obr. vou adresu, která bude přiřazena k účtu a heslu (viz obrázek 4.3).
 
@@ -5668,57 +5473,32 @@ systému Git
 — Obsah kapitoly 122
 
 5. Distribuovaný charakter systému Git — 121
-
 5.1 Distribuované pracovní postupy — 123
-
 5.1.1 Centralizovaný pracovní postup — 123
-
 5.1.2 Pracovní postup s integračním manažerem — 124
-
 5.1.3 Pracovní postup s diktátorem a poručíky — 124
-
 5.2 Přispívání do projektu — 125
-
 5.2.1 Pravidla pro revize — 126
-
 5.2.2 Malý soukromý tým — 127
-
 5.2.3 Soukromý řízený tým — 133
-
 5.2.4 Malý veřejný projekt — 137
-
 5.2.5 Velký veřejný projekt — 141
-
 5.2.6 Shrnutí — 143
-
 5.3 Správa projektu — 144
-
 5.3.1 Práce v tematických větvích — 144
-
 5.3.2 Aplikace záplat z e-mailu — 144
-
 5.3.3 Checkout vzdálených větví — 147
-
 5.3.4 Jak zjistit provedené změny — 147
-
 5.3.5 Integrace příspěvků — 149
-
 5.3.6 Označení vydání značkou — 153
-
 5.3.7 Vygenerování čísla sestavení — 155
-
 5.3.8 Příprava vydání — 155
-
 5.3.9 Příkaz „shortlog“ — 155
-
 5.4 Shrnutí — 156
 
 
-5.1
-Distribuované pracovní 123
-postupy
-5.
-Distribuovaný charakter systému Git
+5.1 Distribuované pracovní postupy 123
+5. Distribuovaný charakter systému Git
 Nyní máte vytvořen vzdálený repozitář Git jako místo, kde mohou
 všichni vývojáři sdílet zdrojový kód, a znáte základní příkazy systému
 Git pro práci v lokálním prostředí. Je čas podívat se na využití některých
@@ -5764,8 +5544,7 @@ svých změn začlenit práci prvního vývojáře do své, aby nepřepsal jeho 
 jak pro Git, tak pro Subversion (popř. jakýkoli CVCS). I v systému Git funguje bez problémů.
 
 
-5.1 Distribuované pracovní 124
-postupy
+5.1 Distribuované pracovní postupy 124
 Pokud pracujete v malém týmu nebo už jste ve své společnosti nebo ve svém týmu zvyklí na centralizovaný
 pracovní postup, můžete v něm beze všeho pokračovat. Jednoduše vytvořte repozitář a přidělte
 všem ze svého týmu oprávnění k odesílání dat. Git neumožní uživatelům, aby se navzájem přepisovali.
@@ -5825,8 +5604,7 @@ integračních manažerů odpovídá za konkrétní části repozitáře – ř�
 Všichni poručíci mají jednoho integračního manažera, kterému se říká „benevolentní diktátor“.
 
 
-5.2
-Přispívání do projektu 125
+5.2 Přispívání do projektu 125
 Repozitář benevolentního diktátora slouží jako referenční repozitář, z nějž všichni spolupracovníci
 Obr. musí stahovat data. Postup práce je následující (viz obrázek 5.3):
 
@@ -5865,8 +5643,7 @@ situacích lze vytvořit celou řadu variací na tyto postupy. Nyní, když už 
 rozhodnout, která kombinace postupů pro vás bude ta nejvhodnější, ukážeme si některé konkrétní
 příklady, jak lze rozdělit hlavní role, z nichž vyplývají jednotlivé postupy práce.
 
-5.2
-Přispívání do projektu
+5.2 Přispívání do projektu
 V tuto chvíli už znáte různé pracovní postupy a na velmi solidní úrovni byste měli ovládat základy
 systému Git. V této části ukážeme několik běžných schémat, podle nichž může přispívání do projektů
 probíhat.
@@ -5993,10 +5770,8 @@ Subversion nebo jiného centralizovaného systému. Se systémem Git ale budete 
 takových ohledech, jako je zapisování revizí offline a podstatně snazší větvení a slučování. Pracovní
 postup však bude velmi podobný. Hlavním rozdílem je to, že slučování probíhá na straně klienta, ne
 během zapisování revize na straně serveru. Podívejme se, jak to může vypadat, když dva vývojáři
-
 
-5.1 Distribuované pracovní 128
-postupy
+5.2 Přispívání do projektu 128
 začnou spolupracovat na projektu se sdíleným repozitářem. První vývojář, John, naklonuje repozitář,
 provede změny a zapíše lokální revizi. (V následujících příkladech nahrazuji zprávy protokolů třemi
 tečkami, abych je trochu zkrátil.)
@@ -6076,8 +5851,7 @@ From john@githost:simplegit
 
  + 049d078...fbff5bc master -> origin/master
 
-5.2
-Přispívání do projektu 129
+5.2 Přispívání do projektu 129
 Obr.
 V tomto okamžiku vypadá Johnův lokální repozitář jako na obrázku 5.4.
 Obrázek 5.4
@@ -6112,8 +5886,7 @@ Johnův repozitář po začlenění větve origin/master
 
 masterorigin/masterfbff54b0781edee72bbc738ee
 
-5.2
-Přispívání do projektu 130
+5.2 Přispívání do projektu 130
 Obr.
 Johnova historie revizí bude nakonec vypadat jako na obrázku 5.6.
 Obrázek 5.6
@@ -6554,8 +6327,7 @@ $ git push –f myfork featureA
 
 
 
-5.2
-Přispívání do projektu 140
+5.2 Přispívání do projektu 140
 Obr.
 Tím přepíšete svou historii, která teď bude vypadat jako na obrázku 5.17.
 Obrázek 5.16
@@ -7315,7 +7087,8 @@ Nástroje systému Git
 
 
 
-158
+— Obsah kapitoly 158
+
 6. Nástroje systému Git — 157
 6.1 Výběr revize — 159
 6.1.1 Jednotlivé revize — 159
@@ -7326,8 +7099,7 @@ Nástroje systému Git
 6.1.6 Reference podle původu — 162
 6.1.7 Intervaly revizí — 163
 6.2 Interaktivní příprava k zapsání — 165
-6.2.1 Příprava souborů k zapsání a jejich
-vracení — 166
+6.2.1 Příprava souborů k zapsání a jejich vracení — 166
 6.2.2 Příprava záplat — 167
 6.3 Odložení — 169
 6.3.1 Odložení práce — 169
@@ -7350,7 +7122,7 @@ vracení — 166
 6.6.4 Projekty se submoduly — 183
 6.7 Začlenění podstromu — 185
 6.8 Shrnutí — 186
-— Obsah kapitoly
+
 
 6.1 Výběr revize 159
 6. Nástroje systému Git
@@ -7470,8 +7242,7 @@ $ git show ca82a6dff817ec66f44342007202690a93763949
 $ git show topic1
 
 
-6.1
-Výběr revize 161
+6.1 Výběr revize 161
 Jestliže vás zajímá, na kterou konkrétní hodnotu SHA větev ukazuje, nebo chcete-li zjistit, jak bude
 některý z těchto příkladů vypadat v podobě SHA, můžete použít jeden z nízkoúrovňových nástrojů
 
@@ -8956,8 +8727,7 @@ COPYING README bin example test
 
 
 
-6.8
-Shrnutí 186
+6.8 Shrnutí 186
 $ git checkout master
 Switched to branch "master"
 $ ls
@@ -9022,7 +8792,7 @@ Individuální přizpůsobení
 systému Git
 
 
-188
+— Obsah kapitoly 188
 7. Individuální přizpůsobení systému Git — 187
 7.1 Konfigurace systému Git — 189
 7.1.1 Základní konfigurace klienta — 189
@@ -9039,12 +8809,11 @@ systému Git
 7.3.1 Instalace zásuvného modulu — 203
 7.3.2 Zásuvné moduly na straně klienta — 203
 7.3.3 Zásuvné moduly na straně serveru — 204
-7.4 Příklad standardů kontrolovaných
-systémem Git — 205
+7.4 Příklad standardů kontrolovaných systémem Git — 205
 7.4.1 Zásuvný modul na straně serveru — 205
 7.4.2 Zásuvné moduly na straně klienta — 211
 7.5 Shrnutí — 214
-— Obsah kapitoly
+
 
 7.1 Konfigurace systému Git 189
 7. Individuální přizpůsobení systému Git
@@ -9662,8 +9431,7 @@ $ cat test.txt
 $Id: 42812b7653c7b88933f8a9d6cad0ca16714b9bb3 $
 
 
-7.2
-Atributy Git 200
+7.2 Atributy Git 200
 Tento výsledek má však omezené použití. Pokud nahradíte klíčové slovo v systému CVS nebo Subversion,
 můžete přidat časový údaj (datestamp) – SHA tu není moc platné, protože je generováno náhodně
 a nelze podle něj určit, zda je jedna revize starší než jiná.
@@ -9764,8 +9532,7 @@ případě je to dater) nikoli. Soubor tak nebude fungovat všude. Při navrhov�
 měli myslet i na to, aby projekt pracoval správně, i když filtr selže.
 
 
-7.2
-Atributy Git 202
+7.2 Atributy Git 202
 7.2.3 Export repozitáře
 Data atributů Git umožňují rovněž některé zajímavé úkony při exportu archivů z vašeho projektu.
 
@@ -9939,8 +9706,7 @@ zásuvných modulů na straně serveru, které vám pomohou kontrolovat téměř
 stanovených pro daný projekt. Tyto skripty se spouštějí před odesíláním revizí na server i po něm.
 
 
-7.4 Příklad standardů kontrolo-205
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 205
 Zásuvné moduly spouštěné před přijetím revizí mohou v případě nenulového výstupu odesílaná data
 kdykoli odmítnout a poslat klientovi chybové hlášení. Díky nim můžete nastavit libovolně komplexní
 požadavky na odesílané revize.
@@ -9996,8 +9762,7 @@ poskytnout těmto uživatelům shellový wrapper, který určuje, který uživat
 veřejného klíče, a nastavit proměnnou prostředí, jež tyto uživatele stanoví.
 
 
-7.4 Příklad standardů kontrolo-206
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 206
 V tomto okamžiku předpokládám, že je připojující se uživatel v proměnné prostředí $USER, a skript
 update tak začne shromažďovat všechny potřebné informace:
 
@@ -10054,8 +9819,7 @@ committer Scott Chacon <schacon@gmail.com> 1240030591 -0700
 changed the version number
 
 
-7.4 Příklad standardů kontrolo-207
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 207
 Jednoduchým způsobem, jak z revize, k níž máte hodnotu SHA-1, extrahovat její zprávu, je přejít
 k prvnímu prázdnému řádku a vzít vše, co následuje za ním.
 
@@ -10122,8 +9886,7 @@ avail|schacon|tests
 
 
 
-7.4 Příklad standardů kontrolo-208
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 208
 Začnete načtením těchto dat do struktury, kterou můžete použít. Abychom příklad nekomplikovali,
 budete vyžadovat pouze direktivy avail (využít). Používá se tu metoda asociativních polí, kdy klíč
 představuje jméno uživatele a hodnotu tvoří sada umístění, k nimž má uživatel oprávnění pro zápis:
@@ -10191,7 +9954,7 @@ new_commits = `git rev-list #{$oldrev}..#{$newrev}`.split("\n")
 new_commits.each do |rev|
 
 
-7.4 Příklad standardů kontrolo-209vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 209
 files_modified = `git log -1 --name-only --pretty=format:'' #{rev}`.split("\n")
 
  files_modified.each do |path|
@@ -10272,8 +10035,7 @@ end
 check_fast_forward
 
 
-7.4 Příklad standardů kontrolo-210
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 210
 Nyní je vše nastaveno. Spustíte-li příkaz chmod u+x .git/hooks/update, což je soubor, do nějž byste
 měli celý tento kód vložit a poté zkusit odeslat referenci, která nesměřuje rychle vpřed, dostanete
 následující výstup:
@@ -10334,8 +10096,7 @@ která mění obsah adresáře lib, zobrazí se mu upozornění:
 [POLICY] You do not have access to push to lib/test.rb
 
 
-7.4 Příklad standardů kontrolo-211
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 211
 A to je vše. Od této chvíle budete mít k dispozici skript update ve spustitelné podobě, váš repozitář
 nikdy nebude převinut zpět a nikdy nepřijme zprávu k revizi, která by neodpovídala předepsanému
 vzoru. Uživatelé se navíc budou moci pohybovat jen ve vymezeném prostoru.
@@ -10396,9 +10157,7 @@ adresář .git vašeho projektu obsahuje kopii souboru ACL, který jsme použív
 omezení přístupu pro vás ohlídá tento skript pre-commit:
 
 
-7.4
-Příklad standardů kontrolo-212
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 212
 #!/usr/bin/env ruby
 
 $user = ENV['USER']
@@ -10465,8 +10224,7 @@ Toto jsou však jediné dvě změny, v ostatních ohledech pracuje skript stejn�
 Pokud nejsou uživatelé stejní, budete muset ručně nastavit proměnnou $user.
 
 
-7.4 Příklad standardů kontrolo-213
-vaných systémem Git
+7.4 Příklad standardů kontrolovaných systémem Git 213
 Posledním krokem, který budete muset provést, je ověření, že nebudete odesílat reference nesměřující
 rychle vpřed. Tento krok však už není tak jednoduchý. Chcete-li vyhledat reference nesměřující rychle
 vpřed, budete muset buď provést přeskládání po revizi, kterou jste již odeslali, nebo se do stejné vzdálené
@@ -10538,39 +10296,22 @@ Git a ostatní systémy
 — Obsah kapitoly 216
 
 8. Git a ostatní systémy — 215
-
 8.1 Git a Subversion — 217
-
 8.1.1 git svn — 217
-
 8.1.2 Vytvoření repozitáře — 218
-
 8.1.3 První kroky — 218
-
 8.1.4 Zapisování zpět do systému Subversion — 220
-
 8.1.5 Stažení nových změn — 221
-
 8.1.6 Problémy s větvemi systému Git — 222
-
 8.1.7 Větve v systému Subversion — 223
-
 8.1.8 Přepínání aktivních větví — 223
-
 8.1.9 Příkazy systému Subversion — 224
-
 8.1.10 Git-Svn: shrnutí — 226
-
 8.2 Přechod na systém Git — 226
-
 8.2.1 Import — 226
-
 8.2.2 Subversion — 226
-
 8.2.3 Perforce — 228
-
 8.2.4 Vlastní importér — 229
-
 8.3 Shrnutí — 234
 
 
@@ -11086,8 +10827,7 @@ git svn vám k řešení tohoto problému nabízí dva příkazy. Tím prvním j
 automaticky vytvoří odpovídající soubory .gitignore, podle nichž se bude řídit už vaše příští revize.
 
 
-8.2
-Přechod na systém Git 226
+8.2 Přechod na systém Git 226
 Druhým z příkazů je git svn show-ignore, který zobrazí standardní výstup stdout s řádky,
 které budete muset vložit do souboru .gitignore. Výstup pak můžete přesměrovat do souboru
 exclude svého projektu:
@@ -11325,8 +11065,7 @@ bude načítat potřebné informace ze systému, z nějž import provádíte, a 
 stdout. Tento program můžete spustit a jeho výstup nechat zpracovat příkazem git fast-import.
 
 
-8.2
-Přechod na systém Git 230
+8.2 Přechod na systém Git 230
 Jako rychlou ukázku napíšeme jednoduchý importér. Řekněme, že pracujete na projektu, který příležitostně
 zálohujete zkopírováním pracovního adresáře do zálohového, datem označeného adresáře
 back_RRRR_MM_DD, a ten chcete nyní importovat do systému Git. Váš adresář má tuto strukturu:
@@ -11623,55 +11362,32 @@ systému Git
 — Obsah kapitoly 236
 
 9. Elementární principy systému Git — 235
-
 9.1 Nízkoúrovňové a vysokoúrovňové příkazy — 237
-
 9.2 Objekty Git — 238
-
 9.2.1 Objekty stromu — 240
-
 9.2.2 Objekty revize — 242
-
 9.2.3 Ukládání objektů — 244
-
 9.3 Reference Git — 246
-
 9.3.1 Soubor HEAD — 247
-
 9.3.2 Značky — 248
-
 9.3.3 Reference na vzdálené repozitáře — 248
-
 9.4 Balíčkové soubory — 249
-
 9.5 Refspec — 252
-
 9.5.1 Odesílání vzorců refspec — 253
-
 9.5.2 Mazání referencí — 253
-
 9.6 Přenosové protokoly — 254
-
 9.6.1 Hloupý protokol — 254
-
 9.6.2 Chytrý protokol — 256
-
 9.7 Správa a obnova dat — 258
-
 9.7.1 Správa — 258
-
 9.7.2 Obnova dat — 258
-
 9.7.3 Odstraňování objektů — 260
-
 9.8 Shrnutí — 263
 
 
-9.1
-Nízkoúrovňové a vysoko-237
-úrovňové příkazy
-9.
-Elementární principy systému Git
+9.1 Nízkoúrovňové a vysokoúrovňové příkazy 237
+
+9. Elementární principy systému Git
 Ať už jste do této kapitoly přeskočili z některé z předchozích, nebo jste se
 sem pročetli napříč celou knihou, v této kapitole se dozvíte něco o vnitřním
 fungování a implementaci systému Git. Osobně se domnívám, že je
@@ -12258,8 +11974,7 @@ ref: refs/heads/test
 Nelze však zadat symbolickou referenci mimo adresář refs:
 
 
-9.3
-Reference Git 248
+9.3 Reference Git 248
 $ git symbolic-ref HEAD test
 fatal: Refusing to point HEAD outside of refs/
 
