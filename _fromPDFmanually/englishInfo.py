@@ -1,6 +1,6 @@
 #!python3
 '''\
-Script for extraction of chapter titles, section titles, subsection 
+Script for extraction of chapter titles, section titles, subsection
 titles, ... from the English original text sources. The text directory
 is relative to this one -- see the body of the program.
 '''
@@ -9,25 +9,47 @@ import os
 import re
 import sys
 
+
 def sourceFiles(text_dir):
+    '''Generator of source-file names yielded in the sorted order.'''
 
     # Check the existence of the directory.
     assert os.path.isdir(text_dir)
 
-    # Get the list of subdirectories with the source files.    
+    # Get the list of subdirectories with the source files.
     subdirs = []
     for sub in sorted(os.listdir(text_dir)):
         d = os.path.join(text_dir, sub)
         if os.path.isdir(d):
-            subdirs.append(d) 
-                             
-    # Loop through subdirs and walk the sorted filenames.                        
-    return subdirs
+            subdirs.append(d)
+
+    # Loop through subdirs and walk the sorted filenames.
+    for sub in subdirs:
+        for name in sorted(os.listdir(sub)):
+            fname = os.path.join(sub, name)
+            if os.path.isfile(fname):
+                yield fname
 
 
-def extractEN():
+def sourceFileLines(text_dir):
+    '''Generator of source-file lines as they should appear in the book.'''
 
-                             
+    # Loop through the source files in the order, open them,
+    # and yield their lines.
+    for fname in sourceFiles(text_dir):
+        with open(fname, encoding='utf-8') as f:
+            for line in f:
+                yield line
+        yield '\n\n'    # to be sure the last line of the previous is separated
+
+
+def extractEN(text_dir):
+
+    for fname in sourceFiles(text_dir):
+        print(fname)
+
+    sys.exit(1)
+
     toc = []
     page_headers = []
     headings = []
@@ -98,13 +120,23 @@ if __name__ == '__main__':
     if not os.path.isdir(aux_dir):
         os.mkdir(aux_dir)
 
-    # Get the directory with the text sources of the origina.
+    # Get the directory with the text sources of the original.
     text_dir = os.path.abspath('../../gitbook/text')
-    
+
+    with open(os.path.join(aux_dir, 'files.txt'), 'w') as f:
+        for fname in sourceFiles(text_dir):
+            f.write(fname + '\n')
+
+    with open(os.path.join(aux_dir, 'sourceLines.txt'), 'w', encoding='utf-8') as f:
+        for line in sourceFileLines(text_dir):
+            f.write(line)
+
+    sys.exit(1)
+
     toc = extractEN(text_dir)
     print(toc)
     sys.exit(1)
-    
+
     # TOC
     with open(os.path.join(aux_dir, 'TOC.txt'), 'w', encoding='utf-8') as f:
         for num, title in toc:
