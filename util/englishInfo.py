@@ -103,12 +103,9 @@ if __name__ == '__main__':
             # The num is the symbolic numbering level '###', '##' or '#'.
             # Increase the appropriate level counter and zero the next counters.
             level = len(num) - 1  # index of the cnt for the title level
-            print('level:', level)
             cnt[level] += 1       # increment the level counter
             for n in range(level+1, len(cnt)):
-                print('level:', level)
                 cnt[n] = 0        # init the sublevels
-            print('cnt =', cnt)
 
             # Build the number from the counters. Join the parts with dot.
             # If it is a single number, the dot will be used at the end.
